@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ryanterronez/posit/issues"
   },
-  "homepage": "https://github.com/ryanterronez/posit#readme"
+  "homepage": "https://github.com/ryanterronez/posit#readme",
+  "devDependencies": {
+    "testcafe": "^2.1.0"
+  }
 }
