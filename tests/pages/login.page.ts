@@ -13,12 +13,12 @@ class LoginPage {
 
 
     constructor() {
-        this.url = "https://login.rstudio.cloud/login"
+        this.url = "https://login.posit.cloud/"
         this.inputEmail = Selector("input").withAttribute("name", "email");
         this.inputPassword = Selector("input").withAttribute("name", "password");
         this.buttonContinue = Selector("button").withText("Continue");
         this.buttonLogIn = Selector("button").withAttribute("type", "submit");
-        this.linkRStudioCloud = Selector("a[href='https://rstudio.cloud/projects/']");
+        this.linkRStudioCloud = Selector("a[href*='/projects']");
     }
 
     async login(username: string, password: string) {

@@ -5,6 +5,7 @@
       "pathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}-${USERAGENT}-${FILE_INDEX}.png"
     },
     "quarantineMode": false,
+    "disablePageCaching": true,
     "skipJsErrors": true,
     "browsers": "chrome",
     "assertionTimeout": 10000,
